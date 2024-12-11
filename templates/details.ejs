@@ -30,7 +30,8 @@
         <% if(user.cv) { %>
           <li class="social-item">
             <a href=<%=user.cv%> class="social-link" target="_blank" rel="noopener noreferrer">
-              <ion-icon name="document-text-outline"></ion-icon>
+              <ion-icon name="document-text-outline" title="Cv" style="color:yellow"></ion-icon>
+                <span class="social-text" style="font-size: x-small; color: yellow;">CV</span>
             </a>
           </li>
         <% } %>
@@ -38,6 +39,7 @@
             <li class="social-item">
                 <a href=<%=user.github%> class="social-link" target="_blank" rel="noopener noreferrer">
                   <ion-icon name="logo-github"></ion-icon>
+                  <span class="social-text" style="font-size: x-small;">github</span>
                 </a>
               </li>
         <% } %>
