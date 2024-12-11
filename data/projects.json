@@ -33,6 +33,7 @@
         "description": "Here we investigated BeEF: The Browser Exploitation Framework, an influential and open source security tool designed for browser penetration testing. We successfully extended some modules and demonstrated some attacks live.",
         "date": "2024",
         "github": "https://github.com/Frost101/CSE-406-Computer-Security-/blob/master/Project-BeEF/1905101_1905118_BeEF_Report.pdf",
+        "youtube": "https://www.youtube.com/watch?v=Zso6VSOkPlU&ab_channel=sabah72224",
         "stacks" : [
             "BeEF",
             "Security and Pentesting"
