@@ -1,0 +1,40 @@
+[
+    {
+        "institution": "Bangladesh University of Engineering and Technology",
+        "degree": "B.Sc. in Computer Science and Engineering",
+        "duration" : "February 2020 - Present",
+        "gpa" : "CGPA: 3.89/4.00 (Upto Level-4, Term-1)",
+        "description" : "Achieved three Dean's List awards for merit.",
+        "courses" : [
+            "CSE 107 - Object Oriented Programming",
+            "CSE 215 - Database",
+            "CSE 203 & 207 - Data Structures and Algorithms",
+            "CSE 205 - Digital Logic Design",
+            "CSE 305 - Computer Architecture",
+            "CSE 307 - Software Engineering",
+            "CSE 309 - Compiler Design",
+            "CSE 313 - Operating Systems",
+            "CSE 317 - Artificial Intelligence",
+            "CSE 321 - Computer Networks",
+            "CSE 325 - Information System Design",
+            "CSE 405 - Computer Security",
+            "CSE 409 - Computer Graphics",
+            "CSE 463 - Introduction to Bioinformatics",
+            "CSE 471 - Machine Learning",
+            "CSE 411 - Simulation and Modeling"
+        ]
+    },{
+        "institution": "Rajshahi College, Rajshahi, Bangladesh",
+        "degree": "Higher Secondary Certificate (HSC)",
+        "duration" : "2019",
+        "gpa" : "GPA: 5.00/5.00",
+        "description" : "Received board scholarship.(Talent Pool)"
+    },{
+        "institution": "Govt. Laboratory High School, Rajshahi, Bangladesh",
+        "degree" : "Secondary School Certificate (SSC)",
+        "duration" : "2017",
+        "gpa" : "GPA: 5.00/5.00",
+        "description" : "Received board scholarship.(Talent Pool)"
+    }
+]
+

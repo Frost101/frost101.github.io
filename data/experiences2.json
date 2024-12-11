@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Remotasks.com - Scale AI",
+        "description": "",
+        "location": "Remote",
+        "positions": [
+            {
+                "position": "Coding Expert",
+                "duration": "June 2023 - December 2023",
+                "description": "",
+                "projects": [
+                    "Trained and evaluated the responses, code generation, completion and debugging capabilities of some of the popular LLMs like GPT-4, Gemini to improve their coding capabilities."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BUET Cyber Security Club",
+        "description": "",
+        "location": "Dhaka, Bangladesh",
+        "positions": [
+            {
+                "position": "Director of Technology",
+                "duration": "September 2024 - Present",
+                "description": "",
+                "projects": [
+                    "Assisted in hosting and setting up the infrastructure for CTF competition's website on DigitalOcean",
+                    "Successfully organized Intra BUET CTF 2024 with 50+ teams.",
+                    "Successfully organized BUET CSE FEST 2024 presents Inter University CTF 2024 with 150+ teams."
+                ]
+            }
+        ]
+    }
+]

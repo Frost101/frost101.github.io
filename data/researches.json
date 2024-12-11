@@ -1,0 +1,70 @@
+[
+    {
+        "title": "SequentialBreak: Large Language Models Can be Fooled by Embedding Jailbreak Prompts into Sequential Prompt Chains",
+        "subtitle": "Privacy and Security of Large Language Models",
+        "coauthors": [
+            "Md. Rafi Ur Rashid(Collaborator) - Pennsylvania State University, PA, USA"
+        ],
+        "keywords": [
+            "Large Language Models",
+            "Privacy and Security",
+            "Adversarial ML"
+        ],
+        "description": "This research explores vulnerabilities in large language models (LLMs) by embedding adversarial jailbreak prompts within benign sequential prompt chains. Specifically, we demonstrate how harmful prompts, concealed within otherwise benign inputs, can bypass safety mechanisms and prompt LLMs to generate harmful responses. To address this issue, we introduce SequentialBreak, a novel attack technique that exploits the sequential processing nature of LLMs. We evaluate the effectiveness of SequentialBreak across leading LLMs, including Llama2, Llama3, Gemma2, Vicuna, GPT-3.5 Turbo, and GPT-4. Our findings underscore the critical need for more robust and resilient safeguards to enhance LLM security and mitigate potential misuse.",
+        "link1": "https://www.researchgate.net/publication/385721327_SequentialBreak_Large_Language_Models_Can_be_Fooled_by_Embedding_Jailbreak_Prompts_into_Sequential_Prompt_Chains",
+        "link1text": "ResearchGate Link",
+        "link2": "https://arxiv.org/abs/2411.06426",
+        "link2text": "ArXiv Link"
+    },
+    {
+        "title": "A Survey on Privacy, Security Attacks and Defenses of Multimodal and Vision Large Language Models",
+        "coauthors": [
+            "Md. Rafi Ur Rashid(Collaborator) - Pennsylvania State University, PA, USA",
+            "Vishnu Dasu(Collaborator) - Pennsylvania State University, PA, USA"
+        ],
+        "keywords": [
+            "Multimodal and Vision LLMs",
+            "Privacy and Security"
+        ],
+        "description": "This ongoing collaborative research that surveys privacy and security vulnerabilities in multimodal and vision large language models (LLMs) and explores defense mechanisms. Key areas include adversarial attacks, image hijacking, jailbreak attacks, data poisoning, model inversion, membership inference, and backdoor attacks. Potential defenses, such as adversarial training, differential privacy and more will also be investigated"
+    },
+    {
+        "title": "Deepfake Face Detection In The Wild",
+        "subtitle": "IEEE Signal Processing Cup at IEEE ICASSP 2025",
+        "coauthors": [
+            "Dr. Mohammad Saifur Rahman(Supervisor) - Professor - Bangladesh University of Engineering and Technology, Dhaka, Bangladesh",
+            "Sheikh Azizul Hakim(Co-supervisor) - Lecturer - Bangladesh University of Engineering and Technology, Dhaka, Bangladesh"
+        ],
+        "keywords": [
+            "Computer Vision",
+            "Deepfake Detection"
+        ],
+        "description": "This research is a part of an ongoing competition, IEEE Signal Processing Cup at IEEE ICASSP 2025. The research aims to develop a generalizable deepfake face detection model that can detect deepfake faces in the wild."
+    },
+    {
+        "title": "Methane plume detection, segmentation and flux rate quantification from multispectral satellite images using deep learning",
+        "subtitle": "Undergraduate Thesis work",
+        "coauthors": [
+            "Dr. Tanzima Hashem(Supervisor) - Professor - Bangladesh University of Engineering and Technology, Dhaka, Bangladesh",
+            "Sultanul Arifin(Collaborator) - Lecturer - BRAC University, Dhaka, Bangladesh"
+        ],
+        "keywords": [
+            "Computer Vision",
+            "Multispectral Image Analysis",
+            "Remote Sensing"
+        ],
+        "description": "This research is a part of my undergraduate thesis work. The research aims to develop a deep learning model that can detect, segment and probably quantify methane plumes from the Sentinel-2 multispectral satellite images."
+    },
+    {
+        "title": "Image Style and Modality Transfer using cycleGAN and its variants",
+        "subtitle": "Machine Learning Sessional Project",
+        "coauthors": [
+            "Md. Toki Tahmid(Supervisor) - Lecturer -  Bangladesh University of Engineering and Technology, Dhaka, Bangladesh"
+        ],
+        "keywords": [
+            "Generative Adversarial Networks",
+            "Image Style Transfer"
+        ],
+        "description": "This is an ongoing work of my Machine Learning (CSE 472) sessional project. This work aims to explore the capabilities of cycleGAN and its variants in image style and modality transfer. Right now, we are converting images from MRI to CT and vice versa."
+    }
+]

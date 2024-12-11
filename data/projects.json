@@ -1,0 +1,124 @@
+[
+    {
+        "title": "ReMan - Retailers and Manufacturers",
+        "image": "REMAN3.PNG",
+        "description": "Here we tried to connect The Retailers and Manufacturers through a completely digital platform. The platform provides features such as inventory and bulk order management, production management, data analytics and market analysis to help retailers and manufacturers streamline their operations and maintain a efficinet supply chain.",
+        "date": "2023-2024",
+        "github": "https://github.com/Frost101/ReMan-Backend",
+        "site": "https://reman-manufacturer.vercel.app/",
+        "stacks" : [
+            "Nodejs",
+            "React",
+            "PostgreSQL",
+            "Prisma",
+            "Antd",
+            "Swagger"
+        ]
+    },{
+        "title": "Health++",
+        "image": "healthpp.PNG",
+        "description": "A digital platform for the health sector. This project aims to streamline healthcare services by providing an integrated system for patient management, appointment scheduling, centralized medical records management, digital prescription with medicine suggestions, centralized test result upload and validation system etc. It has seperate modules for patients, doctors, lab assistant and admins.",
+        "date": "2021",
+        "github": "https://github.com/Frost101/Healthpp",
+        "stacks" : [
+            "Nodejs",
+            "Ejs",
+            "Bootstrap",
+            "PostgreSQL"
+        ]
+    },
+    {
+        "title": "BeEF - Browser Exploitation Framework Tool",
+        "image": "beef.png",
+        "description": "Here we investigated BeEF: The Browser Exploitation Framework, an influential and open source security tool designed for browser penetration testing. We successfully extended some modules and demonstrated some attacks live.",
+        "date": "2024",
+        "github": "https://github.com/Frost101/CSE-406-Computer-Security-/blob/master/Project-BeEF/1905101_1905118_BeEF_Report.pdf",
+        "stacks" : [
+            "BeEF",
+            "Security and Pentesting"
+        ]
+    },
+    {
+        "title": "Intra BUET CTFd",
+        "image": "ctfd.png",
+        "description": "Helped setting up the infrastructure and hosting services for Intra BUET CTF - 2024",
+        "date": "2024",
+        "github": "#",
+        "stacks" : [
+            "DigitalOcean",
+            "Droplets",
+            "Load Balancer",
+            "Redis Cache"
+        ]
+    },
+    {
+        "title": "6 DOF Robotic Arm Mounted on a bot",
+        "image": "robotic_arm.png",
+        "description": "Built a 6 degree of freedom robotic arm with a mobile bot. Used components: Arduino Mega, 6 servo motors, 4 DC motors, 1 bluetooth module, LiPo battery etc.",
+        "date": "2023",
+        "youtube": "https://www.youtube.com/watch?v=a7fEiI-q3VU&ab_channel=TahsinWahid",
+        "stacks" : [
+            "Microcontrollers",
+            "Arduino Mega",
+            "Servo and DC motors",
+            "Bluetooth Module"
+        ]
+    },
+    {
+        "title": "Yet Another C Compiler",
+        "image": "compiler.jpg",
+        "description": "Built a compiler from scratch with modern optimizations for a subset of C language.",
+        "date": "2023",
+        "github": "https://github.com/Frost101/CSE310-Compiler-Sessional",
+        "stacks" : [
+            "Bison",
+            "Yacc",
+            "C"
+        ]
+    },
+    {
+        "title": "Computer Graphics - Ray Tracing",
+        "image": "ray_tracing.bmp",
+        "description": "Implemented ray tracing from scratch with OpenGL to render 3D scenes with realistic lighting, shadows, and reflections. Implemented various features such as recursive reflection, and refraction to enhance the visual quality of the rendered images.",
+        "date": "2023",
+        "github": "https://github.com/Frost101/CSE-410-Computer-Graphics-Sessional-/tree/main/Offline-3(Ray%20Tracing)",
+        "stacks" : [
+            "C++",
+            "OpenGL"
+        ]
+    },
+    {
+        "title": "Xv6 - Operating System - System Call, Scheduler, IPC, Lock , Semaphore and Threading Implementation",
+        "image": "xv6.jpg",
+        "description": "Extended the xv6 operating system by implementing various system calls, process scheduler, inter-process communication mechanisms, locks, semaphores, and threading support.",
+        "date": "2023",
+        "github": "https://github.com/Frost101/CSE-314-Operating-System-Sessional",
+        "stacks" : [
+            "C",
+            "XV6",
+            "Operating System"
+        ]
+    },{
+        "title": "4 bit MIPS PC",
+        "image": "mips.jpg",
+        "description": "Built a modified and reduced version of the MIPS instruction set with ATMega32 and other hardware components",
+        "date": "2023",
+        "github": "",
+        "stacks" : [
+            "AtMega32",
+            "Logisim",
+            "Computer Architechture"
+        ]
+    },
+    {
+        "title": "Pacman",
+        "image": "pacman.bmp",
+        "description": "Built a pc version of the famous game Pacman with c and iGraphics. Enjoy the game with inky, blinky, pinky and clyde.",
+        "date": "2020",
+        "github": "",
+        "stacks" : [
+            "C",
+            "iGraphics"
+        ]
+    }
+]

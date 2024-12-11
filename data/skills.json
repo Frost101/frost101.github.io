@@ -1,0 +1,186 @@
+[
+    {
+        "name": "Languages",
+        "stacks": [
+            {
+                "name": "C",
+                "badge":"https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&badge=c&badgeColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "C++",
+                "badge":"https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&badge=c%2B%2B&badgeColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "Java",
+                "badge":"https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },
+            {
+                "name": "Python",
+                "badge":"https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },
+            {
+                "name": "Javascript",
+                "badge":"https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "Assembly",
+                "badge":"https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "Bash",
+                "badge":"https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "Arduino",
+                "badge":"https://img.shields.io/badge/arduino-%2300979D.svg?style=for-the-badge&logo=arduino&logoColor=white",
+                "projects":[]
+                
+            }
+        ]
+    },{
+        "name": "Tools",
+        "stacks": [
+            {
+                "name": "Git",
+                "badge":"https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Github",
+                "badge":"https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Pytorch",
+                "badge":"https://img.shields.io/badge/pytorch-%23EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Postman",
+                "badge":"https://img.shields.io/badge/postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Swagger",
+                "badge":"https://img.shields.io/badge/swagger-%2385EA2D.svg?style=for-the-badge&logo=swagger&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Linux",
+                "badge":"https://img.shields.io/badge/linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black",
+                "projects":[]
+            },{
+                "name": "Kaggle",
+                "badge":"https://img.shields.io/badge/kaggle-%2320BEFF.svg?style=for-the-badge&logo=kaggle&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Huggingface",
+                "badge":"https://img.shields.io/badge/huggingface-%2320BEFF.svg?style=for-the-badge&logo=huggingface&logoColor=white",
+                "projects":[]
+            }
+        ]
+    },{
+        "name": "Backend",
+        "stacks": [
+            {
+                "name": "NodeJS",
+                "badge":"https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "ExpressJS",
+                "badge":"https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            }
+        ]
+    },{
+        "name": "Frontend",
+        "stacks": [
+            {
+                "name": "ReactJs",
+                "badge":"https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "EJS",
+                "badge":"https://img.shields.io/badge/ejs-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "Bootstrap",
+                "badge":"https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },
+            {
+                "name": "Antdesign",
+                "badge":"https://img.shields.io/badge/antdesign-%230170FE.svg?style=for-the-badge&logo=antdesign&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },
+            {
+                "name": "HTML",
+                "badge":"https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            }
+        ]
+    },{
+        "name": "Data Systems",
+        "stacks": [
+            {
+                "name": "PostgreSQL",
+                "badge":"https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "OracleDB",
+                "badge":"https://img.shields.io/badge/Oracle%20DB-F80000?style=for-the-badge&logo=oracle&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "Prisma",
+                "badge":"https://img.shields.io/badge/prisma-%23323330.svg?style=for-the-badge&logo=prisma&logoColor=%23F7DF1E",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "MySQL",
+                "badge":"https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            }
+        ]
+    },{
+        "name": "Clouds",
+        "stacks": [
+            {
+                "name": "Digital Ocean",
+                "badge":"https://img.shields.io/badge/digitalocean-%230167ff.svg?style=for-the-badge&logo=digitalocean&logoColor=white",
+                "projects":[]
+            }
+        ]
+    }
+]

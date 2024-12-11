@@ -1,0 +1,47 @@
+<article class="research" data-page="research">
+
+    <header>
+      <h2 class="h2 article-title">Research & ML Projects</h2>
+    </header>
+
+    <section class="timeline">
+      <ol class="timeline-list">
+
+        <% researches.forEach(function(research){ %>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title"><%=research.title%></h4>
+            <h5 class="h5 timeline-item-subtitle-research" style="color:aquamarine"><%=research.subtitle%></h5>
+            <% if(research.coauthors && research.coauthors.length > 0 ) { %>
+                <h5 class="h5 timeline-item-subtitle-research" style="color:aquamarine">
+                    <% research.coauthors.forEach(function(coauthor, index){ %>
+                        <%= coauthor %>
+                        <% if(index < research.coauthors.length - 1) { %> , <% } %>
+                    <% }); %>
+                </h5>
+            <% } %>
+            <% if(research.keywords && research.keywords.length > 0 ) { %>
+                <h5 class="h5 timeline-item-subtitle-research" style="color:rgb(93, 226, 250)">Keywords: 
+                    <% research.keywords.forEach(function(keyword, index){ %>
+                        <%= keyword %>
+                        <% if(index < research.keywords.length - 1) { %> , <% } %>
+                    <% }); %>
+                </h5>
+            <% } %>
+            <% if(research.link1) { %>
+                <h5 class="h5 timeline-item-subtitle-research"><a href="<%=research.link1%>" target="_blank" style="color: yellow;"><%=research.link1text%></a></h5>
+            <% } %>
+            <% if(research.link2) { %>
+              <h5 class="h5 timeline-item-subtitle-research"><a href="<%=research.link2%>" target="_blank" style="color: yellow;"><%=research.link2text%></a></h5>
+            <% } %>
+              
+            <br>
+            <p class="timeline-text-bulletpoint">
+              <%=research.description%>
+            </p>
+          </li>
+        <% }); %>
+
+      </ol>
+
+    </section>
+  </article>

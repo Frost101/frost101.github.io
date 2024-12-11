@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Capture The Flag(CTF)",
+        "items": [
+            {
+                "title": "Intra BUET CTF 2023",
+                "position" : "1st Runners Up",
+                "description": "Our team became 1st Runners Up among the 35 teams in Intra BUET CTF 2023 organized by BUET Cyber Security Club."
+            },{
+                "title": "BD-Flag Hunt 2021",
+                "position" : "9th position",
+                "description": "Our team Noobies became 9th among 100+ teams in BD-Flag Hunt 2021 organized by CTF community of Bangladesh."
+            }
+        ]
+    },
+    {
+        "title": "Others",
+        "items": [
+            {
+                "title": "Microcontroller, Microprocessor and Embedding System Sessional Project",
+                "position" : "Honorable Mention",
+                "description": "Our project '6 DOF Robotic Arm mounted on a bot' was awarded Honorable Mention in the Microcontroller, Microprocessor and Embedding System Sessional Project of CSE Department, BUET."
+            }
+        ]
+    }
+]
