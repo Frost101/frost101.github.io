@@ -17,6 +17,10 @@
         "title": "Others",
         "items": [
             {
+                "title" : "Dean's List Award",
+                "description" : "Awarded Dean's List merit scholarship three times for academic performance in BUET."
+            },
+            {
                 "title": "Microcontroller, Microprocessor and Embedding System Sessional Project",
                 "position" : "Honorable Mention",
                 "description": "Our project '6 DOF Robotic Arm mounted on a bot' was awarded Honorable Mention in the Microcontroller, Microprocessor and Embedding System Sessional Project of CSE Department, BUET."
