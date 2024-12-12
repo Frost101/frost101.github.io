@@ -88,6 +88,34 @@
                 "name": "Huggingface",
                 "badge":"https://img.shields.io/badge/huggingface-%2320BEFF.svg?style=for-the-badge&logo=huggingface&logoColor=white",
                 "projects":[]
+            },{
+                "name": "Xv6",
+                "badge":"https://img.shields.io/badge/xv6-%2300599C.svg?style=for-the-badge&logo=xv6&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Logisim",
+                "badge":"https://img.shields.io/badge/logisim-%2300599C.svg?style=for-the-badge&logo=logisim&logoColor=white",
+                "projects":[]
+            },{
+                "name": "AtMega32",
+                "badge":"https://img.shields.io/badge/atmega32-%2300599C.svg?style=for-the-badge&logo=atmega32&logoColor=white",
+                "projects":[]
+            },{
+                "name": "NS3",
+                "badge":"https://img.shields.io/badge/ns3-%2300599C.svg?style=for-the-badge&logo=ns3&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Autopsy",
+                "badge":"https://img.shields.io/badge/autopsy-%2300599C.svg?style=for-the-badge&logo=autopsy&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Wireshark",
+                "badge":"https://img.shields.io/badge/wireshark-%2300599C.svg?style=for-the-badge&logo=wireshark&logoColor=white",
+                "projects":[]
+            },{
+                "name": "OpenGL",
+                "badge":"https://img.shields.io/badge/opengl-%2300599C.svg?style=for-the-badge&logo=opengl&logoColor=white",
+                "projects":[]
             }
         ]
     },{
@@ -135,6 +163,11 @@
                 "projects":[
                     "https://github.com/","https://github.com/"
                 ]
+            },
+            {
+                "name" :"JavaFX",
+                "badge":"https://img.shields.io/badge/javafx-%23E74856.svg?style=for-the-badge&logo=javafx&logoColor=white",
+                "projects":[]
             },
             {
                 "name": "HTML",
