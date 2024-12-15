@@ -9,7 +9,8 @@
                 "duration": "June 2023 - December 2023",
                 "description": "",
                 "projects": [
-                    "Trained and evaluated the responses, code generation, completion and debugging capabilities of some of the popular LLMs like GPT-4, Gemini to improve their coding capabilities."
+                    "Trained and evaluated the responses, code generation, completion and debugging capabilities of some of the popular LLMs like GPT-4, Gemini to improve their coding capabilities.",
+                    "Joined as a coding expert at the 'Dolphin Coding' project where we used to solve programming-related problems and provide solutions with proper documentation and explanations which were later fed into the LLMs"
                 ]
             }
         ]

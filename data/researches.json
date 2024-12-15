@@ -43,7 +43,7 @@
     },
     {
         "title": "Methane plume detection, segmentation and flux rate quantification from multispectral satellite images using deep learning",
-        "subtitle": "Undergraduate Thesis work",
+        "subtitle": "Undergraduate Thesis work [Manuscript in preparation]",
         "coauthors": [
             "Dr. Tanzima Hashem(Supervisor) - Professor - Bangladesh University of Engineering and Technology, Dhaka, Bangladesh",
             "Sultanul Arifin(Collaborator) - Lecturer - BRAC University, Dhaka, Bangladesh"
@@ -53,7 +53,7 @@
             "Multispectral Image Analysis",
             "Remote Sensing"
         ],
-        "description": "This research is a part of my undergraduate thesis work. The research aims to develop a deep learning model that can detect, segment and probably quantify methane plumes from the Sentinel-2 multispectral satellite images."
+        "description": " The research aims to investigate attention Unet architechture that can detect, segment and probably quantify methane plumes from the Sentinel-2 multispectral satellite images. Hopefully, this lightweight solution would be able to monitor large-scale methane emissions globally from space and help us to tackle global warming."
     },
     {
         "title": "Image Style and Modality Transfer using cycleGAN and its variants",
@@ -65,6 +65,6 @@
             "Generative Adversarial Networks",
             "Image Style Transfer"
         ],
-        "description": "This is an ongoing work of my Machine Learning (CSE 472) sessional project. This work aims to explore the capabilities of cycleGAN and its variants in image style and modality transfer. Right now, we are converting images from MRI to CT and vice versa."
+        "description": "This sessional project aims to explore the capabilities of cycleGAN and its variants in style transferring images from MRI to CT and vice versa."
     }
 ]

@@ -5,6 +5,7 @@
         "description": "Here we tried to connect The Retailers and Manufacturers through a completely digital platform. The platform provides features such as inventory and bulk order management, production management, data analytics and market analysis to help retailers and manufacturers streamline their operations and maintain a efficinet supply chain.",
         "date": "2023-2024",
         "github": "https://github.com/Frost101/ReMan-Backend",
+        "youtube": "https://www.youtube.com/watch?v=NSeYYYAv3-4&ab_channel=AbrarMahmud",
         "site": "https://reman-manufacturer.vercel.app/",
         "stacks" : [
             "Nodejs",
@@ -28,9 +29,20 @@
         ]
     },
     {
+        "title": "Pacman",
+        "image": "pacman.bmp",
+        "description": "Built a pc version of the famous game Pacman with c and iGraphics. Enjoy the game with inky, blinky, pinky and clyde.",
+        "date": "2020",
+        "github": "https://github.com/Frost101/Pacman",
+        "stacks" : [
+            "C",
+            "iGraphics"
+        ]
+    },
+    {
         "title": "BeEF - Browser Exploitation Framework Tool",
         "image": "beef.png",
-        "description": "Here we investigated BeEF: The Browser Exploitation Framework, an influential and open source security tool designed for browser penetration testing. We successfully extended some modules and demonstrated some attacks live.",
+        "description": "Here we investigated BeEF: The Browser Exploitation Framework, an influential and open source security tool designed for browser penetration testing.  We successfully extended some of the modules and demonstrated the security vulnerabilities with some live attacks.",
         "date": "2024",
         "github": "https://github.com/Frost101/CSE-406-Computer-Security-/blob/master/Project-BeEF/1905101_1905118_BeEF_Report.pdf",
         "youtube": "https://www.youtube.com/watch?v=Zso6VSOkPlU&ab_channel=sabah72224",
@@ -109,17 +121,6 @@
             "AtMega32",
             "Logisim",
             "Computer Architechture"
-        ]
-    },
-    {
-        "title": "Pacman",
-        "image": "pacman.bmp",
-        "description": "Built a pc version of the famous game Pacman with c and iGraphics. Enjoy the game with inky, blinky, pinky and clyde.",
-        "date": "2020",
-        "github": "",
-        "stacks" : [
-            "C",
-            "iGraphics"
         ]
     }
 ]
