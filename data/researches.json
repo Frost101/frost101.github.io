@@ -17,19 +17,7 @@
         "link2text": "ArXiv Link"
     },
     {
-        "title": "A Survey on Privacy, Security Attacks and Defenses of Multimodal and Vision Large Language Models",
-        "coauthors": [
-            "Md. Rafi Ur Rashid(Collaborator) - Pennsylvania State University, PA, USA",
-            "Vishnu Dasu(Collaborator) - Pennsylvania State University, PA, USA"
-        ],
-        "keywords": [
-            "Multimodal and Vision LLMs",
-            "Privacy and Security"
-        ],
-        "description": "This ongoing collaborative research that surveys privacy and security vulnerabilities in multimodal and vision large language models (LLMs) and explores defense mechanisms. Key areas include adversarial attacks, image hijacking, jailbreak attacks, data poisoning, model inversion, membership inference, and backdoor attacks. Potential defenses, such as adversarial training, differential privacy and more will also be investigated"
-    },
-    {
-        "title": "Deepfake Face Detection In The Wild",
+        "title": "DFCON: ATTENTION-DRIVEN SUPERVISED CONTRASTIVE LEARNING FOR ROBUST DEEPFAKE DETECTION",
         "subtitle": "IEEE Signal Processing Cup at IEEE ICASSP 2025",
         "coauthors": [
             "Dr. Mohammad Saifur Rahman(Supervisor) - Professor - Bangladesh University of Engineering and Technology, Dhaka, Bangladesh",
@@ -66,5 +54,17 @@
             "Image Style Transfer"
         ],
         "description": "This sessional project aims to explore the capabilities of cycleGAN and its variants in style transferring images from MRI to CT and vice versa."
-    }
+    },
+     {
+        "title": "A Survey on Privacy, Security Attacks and Defenses of Multimodal and Vision Large Language Models",
+        "coauthors": [
+            "Md. Rafi Ur Rashid(Collaborator) - Pennsylvania State University, PA, USA",
+            "Vishnu Dasu(Collaborator) - Pennsylvania State University, PA, USA"
+        ],
+        "keywords": [
+            "Multimodal and Vision LLMs",
+            "Privacy and Security"
+        ],
+        "description": "This ongoing collaborative research that surveys privacy and security vulnerabilities in multimodal and vision large language models (LLMs) and explores defense mechanisms. Key areas include adversarial attacks, image hijacking, jailbreak attacks, data poisoning, model inversion, membership inference, and backdoor attacks. Potential defenses, such as adversarial training, differential privacy and more will also be investigated"
+    },
 ]
