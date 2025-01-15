@@ -66,5 +66,5 @@
             "Privacy and Security"
         ],
         "description": "This ongoing collaborative research that surveys privacy and security vulnerabilities in multimodal and vision large language models (LLMs) and explores defense mechanisms. Key areas include adversarial attacks, image hijacking, jailbreak attacks, data poisoning, model inversion, membership inference, and backdoor attacks. Potential defenses, such as adversarial training, differential privacy and more will also be investigated"
-    },
+    }
 ]
