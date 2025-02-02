@@ -1,5 +1,22 @@
 [
     {
+        "title": "DFCON: ATTENTION-DRIVEN SUPERVISED CONTRASTIVE LEARNING FOR ROBUST DEEPFAKE DETECTION",
+        "subtitle": "IEEE Signal Processing Cup at IEEE ICASSP 2025",
+        "coauthors": [
+            "Dr. Mohammad Saifur Rahman(Supervisor) - Professor - Bangladesh University of Engineering and Technology, Dhaka, Bangladesh",
+            "Sheikh Azizul Hakim(Co-supervisor) - Lecturer - Bangladesh University of Engineering and Technology, Dhaka, Bangladesh"
+        ],
+        "keywords": [
+            "Computer Vision",
+            "Deepfake Detection"
+        ],
+        "description": "This work was part of the IEEE Signal Processing Cup at IEEE ICASSP 2025.The project focuses on developing a robust and generalizable deepfake face detection model capable of identifying deepfake faces in real-world scenarios. Selected as one of the three finalist teams for the IEEE Signal Processing Cup 2025, competing at IEEE ICASSP 2025.",
+        "link1": "https://www.researchgate.net/publication/388460128_DFCon_Attention-Driven_Supervised_Contrastive_Learning_for_Robust_Deepfake_Detection",
+        "link1text": "ResearchGate Link",
+        "link2": "https://arxiv.org/abs/2501.16704",
+        "link2text": "ArXiv Link"
+    },
+    {
         "title": "SequentialBreak: Large Language Models Can be Fooled by Embedding Jailbreak Prompts into Sequential Prompt Chains",
         "subtitle": "Privacy and Security of Large Language Models",
         "coauthors": [
@@ -15,19 +32,6 @@
         "link1text": "ResearchGate Link",
         "link2": "https://arxiv.org/abs/2411.06426",
         "link2text": "ArXiv Link"
-    },
-    {
-        "title": "DFCON: ATTENTION-DRIVEN SUPERVISED CONTRASTIVE LEARNING FOR ROBUST DEEPFAKE DETECTION",
-        "subtitle": "IEEE Signal Processing Cup at IEEE ICASSP 2025",
-        "coauthors": [
-            "Dr. Mohammad Saifur Rahman(Supervisor) - Professor - Bangladesh University of Engineering and Technology, Dhaka, Bangladesh",
-            "Sheikh Azizul Hakim(Co-supervisor) - Lecturer - Bangladesh University of Engineering and Technology, Dhaka, Bangladesh"
-        ],
-        "keywords": [
-            "Computer Vision",
-            "Deepfake Detection"
-        ],
-        "description": "This research is a part of an ongoing competition, IEEE Signal Processing Cup at IEEE ICASSP 2025. The research aims to develop a generalizable deepfake face detection model that can detect deepfake faces in the wild."
     },
     {
         "title": "Methane plume detection, segmentation and flux rate quantification from multispectral satellite images using deep learning",

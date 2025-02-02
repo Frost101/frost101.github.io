@@ -1,5 +1,15 @@
 [
     {
+        "title": "IEEE Signal Processing Cup",
+        "items": [
+            {
+                "title": "IEEE Signal Processing Cup 2025",
+                "position" : "Finalist (Top Three)",
+                "description": "Selected as one of the three finalist teams in the IEEE Signal Processing Cup 2025, competing at IEEE ICASSP 2025."
+            }
+        ]
+    },
+    {
         "title": "Capture The Flag(CTF)",
         "items": [
             {
