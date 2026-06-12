@@ -1,33 +1,52 @@
 [
     {
-        "name": "Remotasks.com - Scale AI",
-        "description": "",
-        "location": "Remote",
+        "name": "Ministry of Defense, Healthcare Services",
+        "description": "Lead: Dr. Ehsan Hoque (Professor, University of Rochester; MIT PhD), with Sabri Boughorbel (QCRI) and Abdulrhman Aljouie (KSAU-HS).",
+        "location": "Remote · Kingdom of Saudi Arabia",
         "positions": [
             {
-                "position": "Coding Expert",
-                "duration": "June 2023 - December 2023",
-                "description": "",
+                "position": "Remote AI Research Engineer",
+                "duration": "April 2025 - May 2026",
+                "description": "Research, build, and deploy clinical-grade AI for healthcare and autism (ASD) speech & language therapy. Two papers (Interspeech 2026 + preprint) emerged from this work.",
                 "projects": [
-                    "Trained and evaluated the responses, code generation, completion and debugging capabilities of some of the popular LLMs like GPT-4, Gemini to improve their coding capabilities.",
-                    "Joined as a coding expert at the 'Dolphin Coding' project where we used to solve programming-related problems and provide solutions with proper documentation and explanations which were later fed into the LLMs"
+                    "Architected Digital Harf, a multimodal AI therapy platform (3 therapy modules + an AI Caregiver Assistant) powered by an Agentic Synthetic Data Engine that auto-generates culturally grounded content.",
+                    "Built Harf-Speech, fine-tuning Whisper, Omni-ASR, and wav2vec2 for Arabic phoneme-level assessment with advantages over proprietary Azure Cognitive Services.",
+                    "Integrated into Sehhatek, Saudi Arabia's national healthcare app serving millions of users (in staging, clinical trial beginning), with partners King Fahad Armed Forces Hospital, Mohammed Bin Salman Autism Program & Madinah Autism Society.",
+                    "Contributed to cross-team efforts: Waee (autism screening, University of Cambridge collaboration) and AIDA (autism screening, MIT Media Lab collaboration)."
                 ]
             }
         ]
     },
     {
-        "name": "BUET Cyber Security Club",
+        "name": "ROOTs Edu",
         "description": "",
-        "location": "Dhaka, Bangladesh",
+        "location": "Remote",
+        "link": "https://rootsedulive.com/",
         "positions": [
             {
-                "position": "Director of Technology",
-                "duration": "September 2024 - Present",
+                "position": "Online ICT & Programming Instructor",
+                "duration": "June 2022 - January 2025",
                 "description": "",
                 "projects": [
-                    "Assisted in hosting and setting up the infrastructure for CTF competition's website on DigitalOcean",
-                    "Successfully organized Intra BUET CTF 2024 with 50+ teams.",
-                    "Successfully organized BUET CSE FEST 2024 presents Inter University CTF 2024 with 150+ teams."
+                    "Taught ICT, introductory programming and CS basics to 7,000+ students over three years at ROOTs Edu, one of Bangladesh's leading online EdTech platforms, covering languages, data structures, algorithms, and OOP fundamentals.",
+                    "Developed structured lesson plans and assessments from scratch, translating abstract CS concepts into accessible, beginner-friendly modules."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Others",
+        "description": "",
+        "location": "Remote",
+        "positions": [
+            {
+                "position": "Coding Expert",
+                "org": "Remotasks.com · Scale AI",
+                "duration": "June 2023 - December 2023",
+                "description": "",
+                "projects": [
+                    "Trained and evaluated the responses, code generation, completion and debugging capabilities of popular LLMs like GPT-4 and Gemini to improve their coding capabilities.",
+                    "Joined as a coding expert on the 'Dolphin Coding' project, solving programming problems and providing solutions with proper documentation and explanations that were later fed into the LLMs."
                 ]
             }
         ]

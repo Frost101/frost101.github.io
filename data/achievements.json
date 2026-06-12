@@ -1,25 +1,40 @@
 [
     {
-        "title": "IEEE Signal Processing Cup",
+        "title": "Research & Competition",
         "items": [
             {
-                "title": "IEEE Signal Processing Cup 2025",
-                "position" : "Finalist (Top Three)",
-                "description": "Selected as one of the three finalist teams in the IEEE Signal Processing Cup 2025, competing at IEEE ICASSP 2025."
+                "title": "IEEE Signal Processing Cup at ICASSP 2025",
+                "position" : "1st Runner-Up · Team Lead",
+                "description": "Secured 1st Runner-Up in the 'Deepfake Face Detection in the Wild' challenge at IEEE ICASSP 2025, leading the BUET team."
+            },
+            {
+                "title": "The Global Undergraduate Awards",
+                "position" : "Highly Commended (Computer Science)",
+                "description": "Undergraduate thesis recognized among the top undergraduate research worldwide in the Computer Science category."
             }
         ]
     },
     {
-        "title": "Capture The Flag(CTF)",
+        "title": "Academic",
+        "items": [
+            {
+                "title": "Dean's List Award & University Merit, BUET",
+                "position" : "Dean's List (3×) · University Merit (2×)",
+                "description": "Awarded the Dean's List for outstanding academic performance in three academic years, and University Merit for two semesters at BUET."
+            }
+        ]
+    },
+    {
+        "title": "Capture The Flag (CTF)",
         "items": [
             {
                 "title": "Intra BUET CTF 2023",
-                "position" : "1st Runners Up",
-                "description": "Our team became 1st Runners Up among the 35 teams in Intra BUET CTF 2023 organized by BUET Cyber Security Club."
+                "position" : "1st Runner-Up",
+                "description": "Achieved 2nd place among 35 teams in the cybersecurity competition organized by the BUET Cyber Security Club."
             },{
-                "title": "BD-Flag Hunt 2021",
-                "position" : "9th position",
-                "description": "Our team Noobies became 9th among 100+ teams in BD-Flag Hunt 2021 organized by CTF community of Bangladesh."
+                "title": "BD-Flag Hunt CTF 2022",
+                "position" : "9th Position",
+                "description": "Ranked 9th among 100+ teams in this national cybersecurity challenge."
             }
         ]
     },
@@ -27,16 +42,9 @@
         "title": "Others",
         "items": [
             {
-                "title" : "Dean's List Award",
-                "description" : "Awarded Dean's List merit scholarship three times for academic performance in BUET."
-            },
-            {
-                "title": "Microcontroller, Microprocessor and Embedding System Sessional Project",
+                "title": "Microcontroller, Microprocessor and Embedded System Sessional Project",
                 "position" : "Honorable Mention",
-                "description": "Our project '6 DOF Robotic Arm mounted on a bot' was awarded Honorable Mention in the Microcontroller, Microprocessor and Embedding System Sessional Project of CSE Department, BUET."
-            },
-            {
-                "title": "Achieved a highest Codeforces rating of 1400, earning the rank of Specialist"
+                "description": "A 6-DOF robotic arm mounted on a bot, awarded Honorable Mention in the CSE Department, BUET."
             }
         ]
     }

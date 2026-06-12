@@ -1,47 +1,67 @@
 <article class="research" data-page="research">
 
     <header>
-      <h2 class="h2 article-title">Research & ML Projects</h2>
+      <h2 class="h2 article-title">Research & Publications</h2>
     </header>
 
-    <section class="timeline">
-      <ol class="timeline-list">
+    <section class="publication-section">
+      <ol class="publication-list">
 
-        <% researches.forEach(function(research){ %>
-          <li class="timeline-item">
-            <h4 class="h4 timeline-item-title"><%=research.title%></h4>
-            <h5 class="h5 timeline-item-subtitle-research" style="color:aquamarine"><%=research.subtitle%></h5>
-            <% if(research.coauthors && research.coauthors.length > 0 ) { %>
-                <h5 class="h5 timeline-item-subtitle-research" style="color:aquamarine">
-                    <% research.coauthors.forEach(function(coauthor, index){ %>
-                        <%= coauthor %>
-                        <% if(index < research.coauthors.length - 1) { %> , <% } %>
-                    <% }); %>
-                </h5>
-            <% } %>
-            <% if(research.keywords && research.keywords.length > 0 ) { %>
-                <h5 class="h5 timeline-item-subtitle-research" style="color:rgb(93, 226, 250)">Keywords: 
-                    <% research.keywords.forEach(function(keyword, index){ %>
-                        <%= keyword %>
-                        <% if(index < research.keywords.length - 1) { %> , <% } %>
-                    <% }); %>
-                </h5>
-            <% } %>
-            <% if(research.link1) { %>
-                <h5 class="h5 timeline-item-subtitle-research"><a href="<%=research.link1%>" target="_blank" style="color: yellow;"><%=research.link1text%></a></h5>
-            <% } %>
-            <% if(research.link2) { %>
-              <h5 class="h5 timeline-item-subtitle-research"><a href="<%=research.link2%>" target="_blank" style="color: yellow;"><%=research.link2text%></a></h5>
-            <% } %>
-              
-            <br>
-            <p class="timeline-text-bulletpoint">
-              <%=research.description%>
-            </p>
+        <% researches.forEach(function(pub, idx){ %>
+          <%
+            var s = pub.status || 'preprint';
+            var statusClass = s === 'published' ? 'is-published' : (s === 'under-review' ? 'is-review' : 'is-preprint');
+            var statusLabel = s === 'published' ? 'Published' : (s === 'under-review' ? 'Under Review' : 'Preprint');
+          %>
+          <li class="publication-card <%= statusClass %>">
+            <div class="pub-index"><%= idx + 1 %></div>
+            <div class="pub-body">
+
+              <div class="pub-top">
+                <span class="pub-status <%= statusClass %>"><%= statusLabel %></span>
+                <% if(pub.venue && pub.venue !== statusLabel) { %>
+                  <span class="pub-venue"><%= pub.venue %></span>
+                <% } %>
+                <% (pub.highlights || []).forEach(function(h){ %>
+                  <span class="pub-highlight"><%= h %></span>
+                <% }); %>
+              </div>
+
+              <h3 class="pub-title"><%= pub.title %></h3>
+
+              <% if(pub.collaborators && pub.collaborators.length > 0) { %>
+                <p class="pub-collab"><span class="pub-collab-label">with</span>
+                  <% pub.collaborators.forEach(function(c, i){ %><span class="pub-collab-name"><%= c %></span><% if(i < pub.collaborators.length - 1){ %><span class="pub-collab-sep">, </span><% } %><% }); %>
+                </p>
+              <% } %>
+
+              <% if(pub.affiliation) { %>
+                <p class="pub-affiliation"><ion-icon name="briefcase-outline"></ion-icon><%= pub.affiliation %></p>
+              <% } %>
+
+              <% if(pub.description) { %>
+                <p class="pub-desc"><%= pub.description %></p>
+              <% } %>
+
+              <% if((pub.area && pub.area.length) || (pub.links && pub.links.length)) { %>
+                <div class="pub-footer">
+                  <% if(pub.area && pub.area.length > 0) { %>
+                    <div class="pub-tags">
+                      <% pub.area.forEach(function(a){ %><span class="pub-tag"><%= a %></span><% }); %>
+                    </div>
+                  <% } %>
+                  <% if(pub.links && pub.links.length > 0) { %>
+                    <div class="pub-links">
+                      <% pub.links.forEach(function(l){ %><a class="pub-link" href="<%= l.url %>" target="_blank" rel="noopener noreferrer"><ion-icon name="open-outline"></ion-icon><%= l.text %></a><% }); %>
+                    </div>
+                  <% } %>
+                </div>
+              <% } %>
+
+            </div>
           </li>
         <% }); %>
 
       </ol>
-
     </section>
   </article>

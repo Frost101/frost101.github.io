@@ -24,6 +24,8 @@ const projects = fs.readFileSync('data/projects.json', 'utf8');
 data.projects = JSON.parse(projects);
 const researches = fs.readFileSync('data/researches.json', 'utf8');
 data.researches = JSON.parse(researches);
+const contributions = fs.readFileSync('data/contributions.json', 'utf8');
+data.contributions = JSON.parse(contributions);
 // try{
 //     const template = fs.readFileSync('templates/index.ejs', 'utf8');
 //     const html = ejs.render(template, data);

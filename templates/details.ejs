@@ -35,6 +35,22 @@
             </a>
           </li>
         <% } %>
+        <% if(user.scholar) { %>
+          <li class="social-item">
+            <a href=<%=user.scholar%> class="social-link" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+              <img src="assets/images/google-scholar.svg" style="width: 18px; height: 18px;" alt="Google Scholar">
+              <span class="social-text" style="font-size: x-small;">Scholar</span>
+            </a>
+          </li>
+        <% } %>
+        <% if(user.researchgate) { %>
+          <li class="social-item">
+            <a href=<%=user.researchgate%> class="social-link" target="_blank" rel="noopener noreferrer" title="ResearchGate">
+              <img src="assets/images/researchgate.svg" style="width: 18px; height: 18px;" alt="ResearchGate">
+              <span class="social-text" style="font-size: x-small;">RG</span>
+            </a>
+          </li>
+        <% } %>
         <% if(user.github) { %>
             <li class="social-item">
                 <a href=<%=user.github%> class="social-link" target="_blank" rel="noopener noreferrer">

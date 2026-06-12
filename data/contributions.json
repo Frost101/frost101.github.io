@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Deep Learning Sprint, BUET CSE FEST 2025",
+        "role": "Organizer",
+        "year": "2025",
+        "description": "Problem formulation, dataset curation & management for a 120+ team open deep learning contest at BUET's flagship technical festival.",
+        "links": [
+            { "text": "Part 1", "url": "https://www.kaggle.com/competitions/dl-sprint-4-0-bengali-long-form-speech-recognition" },
+            { "text": "Part 2", "url": "https://www.kaggle.com/competitions/dl-sprint-4-0-bengali-speaker-diarization-challenge" }
+        ]
+    },
+    {
+        "title": "Capture The Flag (CTF), BUET CSE FEST 2024",
+        "role": "Organizer",
+        "year": "2024",
+        "description": "Organized and maintained the full competition infrastructure for a 60+ team inter-university cybersecurity challenge.",
+        "links": [
+            { "text": "Event", "url": "https://facebook.com/events/s/inter-university-capture-the-f/548556114360308/" }
+        ]
+    },
+    {
+        "title": "BUET Cyber Security Club",
+        "role": "Director of Technology",
+        "year": "2024 - 2025",
+        "description": "Led technical operations and organized inter-university cybersecurity competitions and workshops, including hosting and maintaining CTF infrastructure on DigitalOcean.",
+        "links": []
+    }
+]

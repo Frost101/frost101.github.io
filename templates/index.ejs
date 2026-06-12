@@ -58,13 +58,17 @@
           <li class="navbar-item">
             <button class="navbar-link" id="skills" data-nav-link>Skills</button>
           </li>
-          
+
           <li class="navbar-item">
             <button class="navbar-link" id="education" data-nav-link>Education</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" id="research" data-nav-link>Research & <br> ML projects</button>
+            <button class="navbar-link" id="experience" data-nav-link>Experience</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" id="research" data-nav-link>Research & <br> Publications</button>
           </li>
 
           <li class="navbar-item">
@@ -76,12 +80,8 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" id="experience" data-nav-link>Experience</button>
+            <button class="navbar-link" id="contributions" data-nav-link>Contributions</button>
           </li>
-
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Location</button>
-          </li> -->
         </ul>
       </nav>
 
@@ -92,140 +92,50 @@
       <%- include('./about.ejs', {about: about}) %>
 
       <!--
-        - #ABOUT
+        - #SKILLS
       -->
 
       <%- include('./skills.ejs', {skills: skills}) %>
-      
+
       <!--
         - #EDUCATION
       -->
+
       <%- include('./education.ejs', {education: education}) %>
 
       <!--
-        - #RESEARCH
+        - #EXPERIENCE
       -->
-      
+
+      <%- include('./experiences2.ejs', {experiences: experiences}) %>
+
+      <!--
+        - #RESEARCH & PUBLICATIONS
+      -->
+
       <%- include('./researches.ejs', {researches: researches}) %>
 
       <!--
         - #PROJECTS
       -->
-      <%- include('./projects.ejs', {projects: projects}) %>
 
+      <%- include('./projects.ejs', {projects: projects}) %>
 
       <!--
         - #ACHIEVEMENTS
       -->
+
       <%- include('./achievements.ejs', {achievements: achievements}) %>
 
       <!--
-        - #EXPERIENCE
-      -->
-      <%- include('./experiences2.ejs', {experiences: experiences}) %>
-      
-      <!--
-        - #PORTFOLIO
+        - #CONTRIBUTIONS
       -->
 
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-     
+      <%- include('./contributions.ejs', {contributions: contributions}) %>
 
     </div>
 
   </main>
-
-
-
-
-
 
   <!--
     - custom js link

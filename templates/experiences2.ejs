@@ -1,24 +1,25 @@
 <article class="experience" data-page="experience">
 
     <header>
-      <h2 class="h2 article-title">Experiences</h2>
+      <h2 class="h2 article-title">Experience</h2>
     </header>
 
     <% experiences.forEach(function(company){ %>
         <section class="timeline">
             <div class="title-wrapper">
               <div class="icon-box">
-                <ion-icon name="trophy-outline"></ion-icon>
+                <ion-icon name="briefcase-outline"></ion-icon>
               </div>
-              <h3 class="h3"><%=company.name%></h3>
+              <% if(company.link){ %>
+                <h3 class="h3"><a href="<%=company.link%>" target="_blank" rel="noopener noreferrer" class="exp-org-link"><%=company.name%></a></h3>
+              <% } else { %>
+                <h3 class="h3"><%=company.name%></h3>
+              <% } %>
             </div>
-            <!-- <p class="timeline-text">
-                <%=company.description%>
-            </p> -->
+            <% if(company.description){ %>
+                <p class="timeline-text exp-lead"><%=company.description%></p>
+            <% } %>
             <ol class="timeline-list">
-                
-                <p class="timeline-text"> <%=company.description%> </p> <br/>
-                
                 <% company.positions.forEach(function(position){ %>
                     <li class="timeline-item">
                         <div class="education-header">
@@ -26,26 +27,28 @@
                             <span><%=position.duration%></span>
                         </div>
                         <div class="education-header">
-                            <span><%=company.location%></span>
-                            <!-- <span><%=position.duration%></span> -->
+                            <span><% if(position.org){ %><%=position.org%> · <% } %><%=company.location%></span>
                         </div>
-                        <br>
-                        <p class="timeline-text">
-                            <%=position.description%>
-                        </p>
+                        <% if(position.description){ %>
+                            <br>
+                            <p class="timeline-text"><%=position.description%></p>
+                        <% } %>
 
                         <% if(position.projects && position.projects.length > 0) { %>
                             <br/>
-                            <!-- <p class="timeline-text">Some of my Notable works are:</p> -->
                             <div style="margin-left: 15px;"></div>
                             <ul>
                               <% position.projects.forEach(function(project){ %>
                                 <li class="circle"><p class="timeline-text-bulletpoint"><%=project%></p></li>
                               <% }); %>
                             </ul>
-                          
                         <% } %>
 
+                        <% if(position.links && position.links.length > 0){ %>
+                            <div class="pub-links" style="margin-top:10px;">
+                              <% position.links.forEach(function(l){ %><a class="pub-link" href="<%=l.url%>" target="_blank" rel="noopener noreferrer"><ion-icon name="open-outline"></ion-icon><%=l.text%></a><% }); %>
+                            </div>
+                        <% } %>
                     </li>
                 <% }); %>
             </ol>
@@ -54,6 +57,4 @@
         <br>
     <% }); %>
 
-   
-    
 </article>

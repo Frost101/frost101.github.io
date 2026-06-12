@@ -1,10 +1,16 @@
 [
     {
-        "institution": "Bangladesh University of Engineering and Technology",
+        "institution": "Bangladesh University of Engineering and Technology (BUET)",
+        "degree": "M.Sc. in Computer Science and Engineering",
+        "duration" : "June 2025 - Present",
+        "gpa" : "CGPA: 4.00/4.00 (9 credits completed)",
+        "description" : "Pursuing graduate study and research in Computer Science and Engineering."
+    },{
+        "institution": "Bangladesh University of Engineering and Technology (BUET)",
         "degree": "B.Sc. in Computer Science and Engineering",
-        "duration" : "February 2020 - Present",
-        "gpa" : "CGPA: 3.89/4.00 (Upto Level-4, Term-1)",
-        "description" : "Achieved three Dean's List awards for merit.",
+        "duration" : "February 2020 - March 2025",
+        "gpa" : "CGPA: 3.90/4.00",
+        "description" : "Three-time Dean's List Award & Two-time University Merit recipient.",
         "courses" : [
             "CSE 107 - Object Oriented Programming",
             "CSE 215 - Database",
@@ -28,13 +34,12 @@
         "degree": "Higher Secondary Certificate (HSC)",
         "duration" : "2019",
         "gpa" : "GPA: 5.00/5.00",
-        "description" : "Received board scholarship.(Talent Pool)"
+        "description" : "Received board scholarship (Talent Pool)."
     },{
         "institution": "Govt. Laboratory High School, Rajshahi, Bangladesh",
         "degree" : "Secondary School Certificate (SSC)",
         "duration" : "2017",
         "gpa" : "GPA: 5.00/5.00",
-        "description" : "Received board scholarship.(Talent Pool)"
+        "description" : "Received board scholarship (Talent Pool)."
     }
 ]
-

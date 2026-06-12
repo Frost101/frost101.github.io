@@ -1,0 +1,37 @@
+<article class="contributions" data-page="contributions">
+
+    <header>
+      <h2 class="h2 article-title">Contributions</h2>
+    </header>
+
+    <section class="timeline">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="people-outline"></ion-icon>
+        </div>
+        <h3 class="h3">Leadership & Contributions</h3>
+      </div>
+
+      <ol class="timeline-list">
+        <% contributions.forEach(function(item){ %>
+          <li class="timeline-item">
+            <div class="education-header">
+              <h4 class="h4 timeline-item-title"><%= item.title %></h4>
+              <span><%= item.year %></span>
+            </div>
+            <% if(item.role){ %>
+              <h5 class="h5 timeline-item-subtitle contribution-role"><%= item.role %></h5>
+            <% } %>
+            <% if(item.description){ %>
+              <p class="timeline-text"><%= item.description %></p>
+            <% } %>
+            <% if(item.links && item.links.length > 0){ %>
+              <div class="pub-links contribution-links">
+                <% item.links.forEach(function(l){ %><a class="pub-link" href="<%= l.url %>" target="_blank" rel="noopener noreferrer"><ion-icon name="open-outline"></ion-icon><%= l.text %></a><% }); %>
+              </div>
+            <% } %>
+          </li>
+        <% }); %>
+      </ol>
+    </section>
+  </article>
